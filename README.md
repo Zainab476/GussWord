@@ -1,16 +1,30 @@
-# React + Vite
+# Guess the Word Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An engaging word-guessing puzzle game where players attempt to uncover a hidden word letter-by-letter within a limited number of attempts. Developed as part of Assignment 5: Guess the Word.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* **Interactive Word Puzzle:** Hidden word slots update dynamically as correct letters are guessed.
+* **Attempt & Score Tracking:** Displays remaining attempts, incorrect letter tracking, and game status indicators.
+* **Win/Loss Condition Handling:** Visual prompts and alerts when a word is fully guessed or when attempts run out.
+* **Reset / New Game:** Restart functionality to initialize new target words instantly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **HTML5:** Structure for letter input fields, game board, and control elements.
+* **CSS3:** Custom game styling, input feedback colors, and layout structure.
+* **JavaScript (ES6+):** String parsing, array iteration, event listeners for keyboard/button inputs, and dynamic game flow logic.
+
+---
+
+## Getting Started
+
+To run the game locally on your computer:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Assignment5-GussWord.git](https://github.com/your-username/Assignment5-GussWord.git)
